@@ -4,11 +4,11 @@
 
 ### 1. Sơ đồ Use Case
 ```mermaid
-graph TD
+graph LR
     Candidate(("Ứng viên"))
 
     subgraph System ["HỆ THỐNG TUYỂN DỤNG & TÌM VIỆC AI"]
-        direction TB
+        direction LR
 
         subgraph Candidate_UC ["Phân hệ Ứng viên"]
             direction TB
